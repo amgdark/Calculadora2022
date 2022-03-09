@@ -8,6 +8,6 @@ install:
 # command to run tests
 script:
   - pycodestyle *.py
-  - coverage run --branch
+  - coverage run --branch test_calculadora.py
   - coverage report --fail-under=95
   - python3 test_calculadora.py
